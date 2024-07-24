@@ -3,10 +3,10 @@ const { Client } = require('pg');
 class Database {
     constructor() {
         this.client = new Client({
-            user: 'your-username',
+            user: 'postgres',
             host: 'localhost',
-            database: 'employee_management',
-            password: 'your-password',
+            database: 'company_db',
+            password: '1118',
             port: 5432,
         });
 
